@@ -1,0 +1,171 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+
+
+
+.header{
+    font-family: 'Shrikhand', cursive;
+    top: 0;
+    overflow: auto;
+    
+    
+    
+}
+
+.pageName{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    color: darkorchid;
+    font-size: 40px;
+    box-sizing: border-box;
+    
+    
+}
+
+.links{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    color: blue;
+    
+    
+}
+
+
+
+.links ul li{
+    list-style: none;
+    display: inline-flex;
+    
+    
+    
+}
+
+.links a {
+    padding: 20px 70px;
+    text-decoration: none;
+    font-family: 'Titan One', cursive;
+    font-size: 20px;
+    color: seagreen;
+    
+    
+}
+
+
+
+.links a:hover{
+    color: lightblue;
+    
+}
+
+.links a:active{
+    color: lightgoldenrodyellow;
+    
+    
+
+}
+
+
+.body{
+    background-color: black;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+    
+}
+
+.fact {
+    color: palevioletred;
+    font-family: 'Titan One', cursive;
+}
+
+.footer {
+    color: aliceblue;
+}
+
+.fact .h2 {
+    font-size: 30px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    color: palevioletred;
+    text-decoration: underline;
+    
+}
+
+.fact #snake {
+    font-size: 17px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    color: palevioletred;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    margin-top: auto;
+    bottom: 0;
+}
+
+.about {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about .content img {
+    height: auto;
+    width: 500px;
+    max-width: 100%;
+}
+
+.text {
+    width: 500px;
+    max-width: 100%;
+    padding: 0 10px;
+    color: aliceblue;
+    
+    
+}
+
+.content {
+    width: 1280px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.line{
+    border-bottom: solid lightsalmon;
+}
+
+.icon {
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+footer img{
+    width: 50px;
+    padding: 10px;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    
+}
